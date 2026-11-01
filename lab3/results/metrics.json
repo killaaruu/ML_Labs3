@@ -1,0 +1,76 @@
+{
+  "corpus": "Tiny Shakespeare",
+  "characters": 1115394,
+  "steps": 3000,
+  "parameters": 3225665,
+  "best_val_loss": 1.493,
+  "best_val_step": 2500,
+  "final_val_loss": 1.511,
+  "history": [
+    {
+      "step": 0,
+      "train": 4.272,
+      "val": 4.281
+    },
+    {
+      "step": 250,
+      "train": 1.997,
+      "val": 2.05
+    },
+    {
+      "step": 500,
+      "train": 1.643,
+      "val": 1.784
+    },
+    {
+      "step": 750,
+      "train": 1.495,
+      "val": 1.68
+    },
+    {
+      "step": 1000,
+      "train": 1.421,
+      "val": 1.619
+    },
+    {
+      "step": 1250,
+      "train": 1.359,
+      "val": 1.579
+    },
+    {
+      "step": 1500,
+      "train": 1.324,
+      "val": 1.549
+    },
+    {
+      "step": 1750,
+      "train": 1.296,
+      "val": 1.538
+    },
+    {
+      "step": 2000,
+      "train": 1.273,
+      "val": 1.521
+    },
+    {
+      "step": 2250,
+      "train": 1.256,
+      "val": 1.513
+    },
+    {
+      "step": 2500,
+      "train": 1.237,
+      "val": 1.493
+    },
+    {
+      "step": 2750,
+      "train": 1.223,
+      "val": 1.502
+    },
+    {
+      "step": 3000,
+      "train": 1.222,
+      "val": 1.511
+    }
+  ]
+}

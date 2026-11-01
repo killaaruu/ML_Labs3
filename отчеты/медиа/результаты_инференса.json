@@ -1,0 +1,422 @@
+{
+  "lab1": {
+    "model": "lab1\\results\\model.pt",
+    "video": "отчеты\\медиа\\лаба1_загрузка-и-распознавание.mp4",
+    "device": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "fps": 8,
+    "width": 1280,
+    "height": 720,
+    "samples": [
+      {
+        "file": "data\\cifar10\\test\\airplane\\01137.png",
+        "true": "airplane",
+        "predicted": "truck",
+        "confidence": 0.7186564803123474,
+        "top3": [
+          {
+            "class": "truck",
+            "probability": 0.7186564803123474
+          },
+          {
+            "class": "airplane",
+            "probability": 0.10629844665527344
+          },
+          {
+            "class": "automobile",
+            "probability": 0.059106241911649704
+          }
+        ]
+      },
+      {
+        "file": "data\\cifar10\\test\\automobile\\03394.png",
+        "true": "automobile",
+        "predicted": "automobile",
+        "confidence": 0.9999983310699463,
+        "top3": [
+          {
+            "class": "automobile",
+            "probability": 0.9999983310699463
+          },
+          {
+            "class": "frog",
+            "probability": 1.205148237204412e-06
+          },
+          {
+            "class": "ship",
+            "probability": 4.255329315583367e-07
+          }
+        ]
+      },
+      {
+        "file": "data\\cifar10\\test\\bird\\05023.png",
+        "true": "bird",
+        "predicted": "bird",
+        "confidence": 0.9801802635192871,
+        "top3": [
+          {
+            "class": "bird",
+            "probability": 0.9801802635192871
+          },
+          {
+            "class": "dog",
+            "probability": 0.006508363410830498
+          },
+          {
+            "class": "automobile",
+            "probability": 0.003916802350431681
+          }
+        ]
+      },
+      {
+        "file": "data\\cifar10\\test\\cat\\09678.png",
+        "true": "cat",
+        "predicted": "cat",
+        "confidence": 0.9035027027130127,
+        "top3": [
+          {
+            "class": "cat",
+            "probability": 0.9035027027130127
+          },
+          {
+            "class": "horse",
+            "probability": 0.031067488715052605
+          },
+          {
+            "class": "frog",
+            "probability": 0.02297494187951088
+          }
+        ]
+      },
+      {
+        "file": "data\\cifar10\\test\\deer\\05184.png",
+        "true": "deer",
+        "predicted": "deer",
+        "confidence": 0.8950647711753845,
+        "top3": [
+          {
+            "class": "deer",
+            "probability": 0.8950647711753845
+          },
+          {
+            "class": "frog",
+            "probability": 0.07790496945381165
+          },
+          {
+            "class": "dog",
+            "probability": 0.011947115883231163
+          }
+        ]
+      },
+      {
+        "file": "data\\cifar10\\test\\dog\\06592.png",
+        "true": "dog",
+        "predicted": "dog",
+        "confidence": 1.0,
+        "top3": [
+          {
+            "class": "dog",
+            "probability": 1.0
+          },
+          {
+            "class": "cat",
+            "probability": 4.848092483022981e-10
+          },
+          {
+            "class": "truck",
+            "probability": 1.0054528390424089e-11
+          }
+        ]
+      },
+      {
+        "file": "data\\cifar10\\test\\frog\\08792.png",
+        "true": "frog",
+        "predicted": "frog",
+        "confidence": 0.998681366443634,
+        "top3": [
+          {
+            "class": "frog",
+            "probability": 0.998681366443634
+          },
+          {
+            "class": "deer",
+            "probability": 0.0007759087020531297
+          },
+          {
+            "class": "cat",
+            "probability": 0.0004990112502127886
+          }
+        ]
+      },
+      {
+        "file": "data\\cifar10\\test\\horse\\09757.png",
+        "true": "horse",
+        "predicted": "horse",
+        "confidence": 0.9995217323303223,
+        "top3": [
+          {
+            "class": "horse",
+            "probability": 0.9995217323303223
+          },
+          {
+            "class": "dog",
+            "probability": 0.0002329384587937966
+          },
+          {
+            "class": "deer",
+            "probability": 8.581889414926991e-05
+          }
+        ]
+      },
+      {
+        "file": "data\\cifar10\\test\\ship\\00999.png",
+        "true": "ship",
+        "predicted": "ship",
+        "confidence": 0.9999992847442627,
+        "top3": [
+          {
+            "class": "ship",
+            "probability": 0.9999992847442627
+          },
+          {
+            "class": "automobile",
+            "probability": 6.681516424578149e-07
+          },
+          {
+            "class": "airplane",
+            "probability": 5.3357904761242025e-09
+          }
+        ]
+      },
+      {
+        "file": "data\\cifar10\\test\\truck\\09159.png",
+        "true": "truck",
+        "predicted": "truck",
+        "confidence": 0.9994487166404724,
+        "top3": [
+          {
+            "class": "truck",
+            "probability": 0.9994487166404724
+          },
+          {
+            "class": "airplane",
+            "probability": 0.0004004919028375298
+          },
+          {
+            "class": "cat",
+            "probability": 9.148097888100892e-05
+          }
+        ]
+      }
+    ]
+  },
+  "lab2": {
+    "model": "lab2\\results\\model.pt",
+    "video": "отчеты\\медиа\\лаба2_загрузка-и-распознавание.mp4",
+    "device": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "fps": 8,
+    "width": 1280,
+    "height": 720,
+    "samples": [
+      {
+        "file": "data\\cifar10\\test\\airplane\\01137.png",
+        "true": "airplane",
+        "predicted": "truck",
+        "confidence": 0.4526466131210327,
+        "top3": [
+          {
+            "class": "truck",
+            "probability": 0.4526466131210327
+          },
+          {
+            "class": "airplane",
+            "probability": 0.17451080679893494
+          },
+          {
+            "class": "ship",
+            "probability": 0.12842513620853424
+          }
+        ]
+      },
+      {
+        "file": "data\\cifar10\\test\\automobile\\03394.png",
+        "true": "automobile",
+        "predicted": "automobile",
+        "confidence": 0.9999997615814209,
+        "top3": [
+          {
+            "class": "automobile",
+            "probability": 0.9999997615814209
+          },
+          {
+            "class": "ship",
+            "probability": 1.6827665660912317e-07
+          },
+          {
+            "class": "truck",
+            "probability": 8.679074881001725e-08
+          }
+        ]
+      },
+      {
+        "file": "data\\cifar10\\test\\bird\\05023.png",
+        "true": "bird",
+        "predicted": "bird",
+        "confidence": 0.8187123537063599,
+        "top3": [
+          {
+            "class": "bird",
+            "probability": 0.8187123537063599
+          },
+          {
+            "class": "frog",
+            "probability": 0.04923957586288452
+          },
+          {
+            "class": "deer",
+            "probability": 0.036156609654426575
+          }
+        ]
+      },
+      {
+        "file": "data\\cifar10\\test\\cat\\09678.png",
+        "true": "cat",
+        "predicted": "cat",
+        "confidence": 0.3861756920814514,
+        "top3": [
+          {
+            "class": "cat",
+            "probability": 0.3861756920814514
+          },
+          {
+            "class": "dog",
+            "probability": 0.33814674615859985
+          },
+          {
+            "class": "airplane",
+            "probability": 0.12660324573516846
+          }
+        ]
+      },
+      {
+        "file": "data\\cifar10\\test\\deer\\05184.png",
+        "true": "deer",
+        "predicted": "deer",
+        "confidence": 0.9874623417854309,
+        "top3": [
+          {
+            "class": "deer",
+            "probability": 0.9874623417854309
+          },
+          {
+            "class": "cat",
+            "probability": 0.005494414828717709
+          },
+          {
+            "class": "dog",
+            "probability": 0.0042127142660319805
+          }
+        ]
+      },
+      {
+        "file": "data\\cifar10\\test\\dog\\06592.png",
+        "true": "dog",
+        "predicted": "dog",
+        "confidence": 0.9999920129776001,
+        "top3": [
+          {
+            "class": "dog",
+            "probability": 0.9999920129776001
+          },
+          {
+            "class": "cat",
+            "probability": 7.951138286443893e-06
+          },
+          {
+            "class": "bird",
+            "probability": 4.330117420181523e-08
+          }
+        ]
+      },
+      {
+        "file": "data\\cifar10\\test\\frog\\08792.png",
+        "true": "frog",
+        "predicted": "frog",
+        "confidence": 0.9752528071403503,
+        "top3": [
+          {
+            "class": "frog",
+            "probability": 0.9752528071403503
+          },
+          {
+            "class": "cat",
+            "probability": 0.010707859881222248
+          },
+          {
+            "class": "deer",
+            "probability": 0.010500751435756683
+          }
+        ]
+      },
+      {
+        "file": "data\\cifar10\\test\\horse\\09757.png",
+        "true": "horse",
+        "predicted": "horse",
+        "confidence": 0.9959084987640381,
+        "top3": [
+          {
+            "class": "horse",
+            "probability": 0.9959084987640381
+          },
+          {
+            "class": "deer",
+            "probability": 0.0035154621582478285
+          },
+          {
+            "class": "dog",
+            "probability": 0.00034604434040375054
+          }
+        ]
+      },
+      {
+        "file": "data\\cifar10\\test\\ship\\00999.png",
+        "true": "ship",
+        "predicted": "ship",
+        "confidence": 0.9999719858169556,
+        "top3": [
+          {
+            "class": "ship",
+            "probability": 0.9999719858169556
+          },
+          {
+            "class": "automobile",
+            "probability": 2.0066992874490097e-05
+          },
+          {
+            "class": "airplane",
+            "probability": 7.425616331602214e-06
+          }
+        ]
+      },
+      {
+        "file": "data\\cifar10\\test\\truck\\09159.png",
+        "true": "truck",
+        "predicted": "truck",
+        "confidence": 0.9996756315231323,
+        "top3": [
+          {
+            "class": "truck",
+            "probability": 0.9996756315231323
+          },
+          {
+            "class": "automobile",
+            "probability": 0.00011634877591859549
+          },
+          {
+            "class": "cat",
+            "probability": 9.845505701377988e-05
+          }
+        ]
+      }
+    ]
+  }
+}
